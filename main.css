@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    
+    height: 4000px;
+}
+
+header{
+    background-color:  #E5E5E5;
+    width: 100%;
+    height: 30vh;
+  
+}
+
+#body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+#logo{
+    margin: auto;
+    width: 20%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#proga{
+    background: white;
+    width: 100%;
+   }
+#slogan{
+    text-align: center;
+    
+}
+
+
+#slogan p{
+    text-align: center;
+    padding-top: 10%;
+    color: #0088A2;
+    
+   
+    font-size: 32px;
+    font-family: 'Josefin Sans';
+    cursor: pointer;
+}
+
+#menu{
+    
+    background-color: #808080 ;
+    width: 100%;
+    height: 35px;
+    margin: 0 0 0 -40px;
+    display: flex;
+    
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bg{
+
+    text-align: center;
+    width: 20%;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+
+}
+.bg:hover {
+    background-color: #0088A2;
+    transition: 0.8s;
+}
+
+.sectionTwo{
+    width: 100%;
+}
+
+#photo{
+    padding-top: 20px;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap; 
+    
+    width: 90%;
+    height: 60vh;
+}
+
+.photoImg{
+    position: relative;
+    width: 30%;
+    height: 70%;
+    padding: 20px;
+}
+.photoImg img{
+    width: 100%;
+    height: 100%;
+}
+.photoImg p{
+    font-size: 30px;
+   position: absolute;
+   bottom: 40%;
+   left: 10%;
+   color: white;
+
+}
+
+
+
+
+
+   #programm {
+    margin-top: 5px;
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    padding-top: 0.5px;
+    
+}
+#programm h1{
+    font-size: 40px;
+    margin-bottom: 27px;
+    color: #0088A2;;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    position: relative;
+    
+
+}
+.video{
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+.play{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+
+#about h1{
+    margin-bottom: 27px;
+    color: #0088A2;;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.app {
+    padding-top: 120px;
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    
+
+}
+
+.pro {
+
+    position: relative;
+    margin: auto;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.apper{
+    position: absolute;
+}
+
+
+.apper img{
+    width: 300px;
+
+}
+
+.apper:first-child{
+    z-index: 1;
+}
+
+
+.apper:nth-child(2) {
+    top: 50px;
+    left:230px;
+    z-index: 2;
+}
+
+.apper:nth-child(3) {
+    left:460px;
+    z-index: 3;
+}
+
+.apper:nth-child(4) {
+    top: 50px;
+    left:690px;
+    z-index: 4;
+}
+.apper:nth-child(5) {
+    left:920px;
+    z-index: 5;
+}
+
+.project{
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    padding-top:1px;
+}
+
+#aboutpro h2{
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Open Sans';
+    color:#0088A2;
+}
+
+#aboutpro p{
+    text-align: center;
+    width: 90%;
+    color: #707070;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.7em;
+    margin: auto;
+}
+
+.download{
+    margin-top: 5px;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.download h2{
+    color: #0088A2;
+    text-align: center;
+    font-family: 'Open sans',sans-serif;
+    font-size: 2.5em;
+}
+
+.logotip{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.porag {
+    margin-top: 25px;
+    width: 90%;
+}
+
+.porag p{
+    color: #707070;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5em;
+    margin-left:50px;
+}
+
+footer{
+    padding-top: 1px;
+    border-top: 2px solid yellow;
+    width: 100%;
+    height: 550px;
+    background-color: #0088A2;
+    
+}
+
+footer h2{
+    text-align: center;
+    font-size: 3em ;
+    font-family: 'josefin sans';
+    color: white;
+}
+
+
+.sait{
+    width: 40%;
+    margin-left:400px ;
+    display: flex;
+    justify-content: space-around;
+}
+.other{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact {
+    width: 30%;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.contact h3{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+/*-------------- burger -------------------*/
+
+
+
+.burger-menu{
+    opacity: 0;
+}
+
+
+
+/* Адаптивка на iphone10 */
+
+@media screen and (max-width:375px) 
+
+ { #logo {width: 50%;
+            height: 50%; }
+}
+@media screen and (max-width:375px) 
+
+ { #slogan p{font-size: 16px; }
+}
+@media screen and (max-width:375px) 
+
+ { .sectionTwo{height: 70vh; }
+}
+
+
+@media screen and (max-width:375px) 
+
+ { #photo{ 
+     width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
+}
+@media screen and (max-width:375px) 
+
+ { .photoImg{ width: 100%;
+    height: 20%;
+  
+    padding: 1px;
+
+}
+}
+
+@media screen and (max-width:375px) 
+
+ { .photoImg p{ font-size: 20px;
+
+}
+}
+@media screen and (max-width:375px) 
+
+ { #programm{ height: 40vh;
+
+}
+}
+@media screen and (max-width:375px) 
+
+ { .video{ height: 70%;}
+}
+
+@media screen and (max-width:375px) 
+
+ { .play{ width:15%;
+    height: 20%;
+    left: 40%;
+    top: 20%;
+}
+}
+@media screen and (max-width:375px) 
+
+ { .app{ display: none;}
+}
+@media screen and (max-width:375px) 
+
+ { #aboutpro { margin: auto;
+}
+
+@media screen and (max-width:375px) 
+
+ { #aboutpro h2{ font-size: 30px;
+}
+}
+@media screen and (max-width:375px) 
+
+ { #aboutpro p{ font-size: 25px;
+    display: inline-block;
+  padding-left: 15px;
+    width: 90%;}
+}
+@media screen and (max-width:375px) 
+
+ { .logotip { 
+    margin-left: -15px;
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { .logotip img{ font-size: 25px;
+    width: 50%;
+    height: 80%;
+    }
+}
+@media screen and (max-width:375px) 
+
+ { .project{ 
+    height: 400px;
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { .iconimg{ 
+    width: 40% !important; 
+    height: 80%;
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { .sait{ 
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { .sait img{ 
+    width: 20%;
+
+    }
+}
+@media screen and (max-width:375px) 
+
+ { .other{ 
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { footer{ 
+    height: 80vh;
+
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { .contact{ 
+    width: 100%;
+
+    }
+}
+@media screen and (max-width:375px) 
+
+ { .adress, .help{ 
+    width: 100%;
+
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { #proga{ 
+    display: none;
+
+    }
+}
+@media screen and (max-width:375px) 
+
+ { .burger-menu{ 
+    display: block;
+
+    }
+}
+ 
+@media screen and (max-width:375px) 
+
+ { .burger-menu{ 
+    opacity: 1;
+
+    }
+}
+
+@media screen and (max-width:375px) 
+
+ { .burger-menu{ 
+    opacity: 1;
+    position: relative;
+    
+
+    }
+
+
+    #menu_toggle{
+    opacity: 0;
+}
+.menu_btn{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu_btn>span,
+.menu_btn>span::before,
+.menu_btn>span::after{
+    z-index: 10;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0088a2;
+}
+
+.menu_btn>span::before{
+    z-index: 10;
+    top: -8px;
+    content: '';
+}
+
+.menu_btn>span::after{
+    z-index: 10;
+    top: 8px;
+    content: '';
+}
+
+.menu_box{
+    z-index: 10;
+    display: block;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    /* left: -100%; */
+    width: 300px;
+    height: 20%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px  0px 5px rgba(0, 0, 0, 2);
+    transition: .3s;
+}
+
+.menu_item{
+    
+    display: block;
+    padding: 12px 24px;
+    color: #0088a2;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+    border-bottom: 1px solid  #0088a2;
+}
+
+.menu_item:hover{
+  
+    background-color: #0088a2;
+    color: white;
+    transition: .3s;
+}
+
+#menu_toggle{
+    
+    background: #0088a2;
+    color: white;
+}
+#menu_toggle:checked~.menu_btn>span{
+  
+    transform: rotate(45deg);
+}
+#menu_toggle:checked~.menu_btn>span::before{
+    
+    top: 0;
+    transform: rotate(0);
+    
+
+}
+#menu_toggle:checked~.menu_btn>span::after{
+  
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu_toggle:checked~.menu_box{
+ 
+    visibility: visible;
+   left: 0;
+}
+
+
+} 
+
+
+
